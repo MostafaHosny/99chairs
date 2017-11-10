@@ -12,3 +12,10 @@ responcne should be like that bassed on your data
 which is the text.csv is the path of you file 
 
 note: i used httpie for send a curl request 
+
+_------
+for task 2 
+run rails s 
+
+go to the root path or /users 
+upload the csv file 

@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
 
-namespace :api do 
-   # resources :importer
-   post 'files/prossecing'
- end
+	root 'users#index'
+	namespace :api do 
+   	post 'files/prossecing'
+ 	end
+ 	
+	resources :users , only: [:index] do
+  	collection { post :import }
+	end
 end
