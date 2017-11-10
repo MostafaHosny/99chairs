@@ -1,6 +1,6 @@
 # README
 1-run bundle 
-2-rails db:migrate (there is no time form the user model but i did the migration)
+2-rails db:migrate (there is no time for the user model but i did the migration)
 *to test the api 
 1:run rails s 
 2: using any curl tool 
