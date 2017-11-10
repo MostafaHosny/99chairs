@@ -3,7 +3,6 @@ require 'rails_helper'
 RSpec.describe API::FilesController, type: :controller do
 	before :each do
 	  @file = fixture_file_upload('files/test.csv', 'text/csv')
-	  
 	end
 
 	context 'can upload a csv file' do

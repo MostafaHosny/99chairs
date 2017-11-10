@@ -1,4 +1,3 @@
-require 'csv_prossecing'
 class API::FilesController < API::BaseController
 	def prossecing
 		@result = CsvProssecing.new(params[:file]).process
